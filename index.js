@@ -8,7 +8,7 @@ var connected = 0;
 var actions = [ 'forward', 'sprint', 'sprint', 'forward']
 var lastaction;
 var pi = 3.14159;
-var moveinterval = 1; // 1 second movement interval
+var moveinterval = 0.1; // 0.1 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
 var username = data["name"]
